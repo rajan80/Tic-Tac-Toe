@@ -2,18 +2,30 @@
   padding-top: 3em;
   text-align: center;
 }
+#Reset{
+  font-weight: bolder;
+  float:left;
+  background-color: brown;
+  
+}
+
+body{
+   align-items: center;
+  
+}
 
 .row > div {
-    cursor: pointer;
+  cursor: pointer;
   float: left;
   height: 100px;
   width: 100px;
+  
 }
 
 .row {
-    margin:0 auto;
+    margin: auto;
     width:302px;
-  clear: both;
+    clear: both;
 }
 
 .top {
